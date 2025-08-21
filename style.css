@@ -1,0 +1,120 @@
+
+.sfondoGradiente{
+    background-image: linear-gradient(45deg,#6666ff,#0000ff);
+    height: 100%;
+    margin: 0;
+    backdrop-filter: blur(10px);
+    animation-name: sfondoGradienteAnimato;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*
+Prima non cambia linearmente l'angolo
+Poi non funziona linearmente la trasformazione di colori
+Quindi vaffanculo mi sono fatto uno script del cazzo in C++ per stamparmi tutto questo
+Vehap vorrai ammazzarmi ma vaffanculo
+*/
+@keyframes sfondoGradienteAnimato{
+   0%{background-image: linear-gradient(0deg,#6666ff,#0000ff);}
+    1%{background-image: linear-gradient(3.6deg,#6666ff,#0000ff);}
+    2%{background-image: linear-gradient(7.2deg,#6666ff,#0000ff);}
+    3%{background-image: linear-gradient(10.8deg,#6666ff,#0000ff);}
+    4%{background-image: linear-gradient(14.4deg,#6666ff,#0000ff);}
+    5%{background-image: linear-gradient(18deg,#6666ff,#0000ff);}
+    6%{background-image: linear-gradient(21.6deg,#6666ff,#0000ff);}
+    7%{background-image: linear-gradient(25.2deg,#6666ff,#0000ff);}
+    8%{background-image: linear-gradient(28.8deg,#6666ff,#0000ff);}
+    9%{background-image: linear-gradient(32.4deg,#6666ff,#0000ff);}
+    10%{background-image: linear-gradient(36deg,#6666ff,#0000ff);}
+    11%{background-image: linear-gradient(39.6deg,#6666ff,#0000ff);}
+    12%{background-image: linear-gradient(43.2deg,#6666ff,#0000ff);}
+    13%{background-image: linear-gradient(46.8deg,#6666ff,#0000ff);}
+    14%{background-image: linear-gradient(50.4deg,#6666ff,#0000ff);}
+    15%{background-image: linear-gradient(54deg,#6666ff,#0000ff);}
+    16%{background-image: linear-gradient(57.6deg,#6666ff,#0000ff);}
+    17%{background-image: linear-gradient(61.2deg,#6666ff,#0000ff);}
+    18%{background-image: linear-gradient(64.8deg,#6666ff,#0000ff);}
+    19%{background-image: linear-gradient(68.4deg,#6666ff,#0000ff);}
+    20%{background-image: linear-gradient(72deg,#6666ff,#0000ff);}
+    21%{background-image: linear-gradient(75.6deg,#6666ff,#0000ff);}
+    22%{background-image: linear-gradient(79.2deg,#6666ff,#0000ff);}
+    23%{background-image: linear-gradient(82.8deg,#6666ff,#0000ff);}
+    24%{background-image: linear-gradient(86.4deg,#6666ff,#0000ff);}
+    25%{background-image: linear-gradient(90deg,#6666ff,#0000ff);}
+    26%{background-image: linear-gradient(93.6deg,#6666ff,#0000ff);}
+    27%{background-image: linear-gradient(97.2deg,#6666ff,#0000ff);}
+    28%{background-image: linear-gradient(100.8deg,#6666ff,#0000ff);}
+    29%{background-image: linear-gradient(104.4deg,#6666ff,#0000ff);}
+    30%{background-image: linear-gradient(108deg,#6666ff,#0000ff);}
+    31%{background-image: linear-gradient(111.6deg,#6666ff,#0000ff);}
+    32%{background-image: linear-gradient(115.2deg,#6666ff,#0000ff);}
+    33%{background-image: linear-gradient(118.8deg,#6666ff,#0000ff);}
+    34%{background-image: linear-gradient(122.4deg,#6666ff,#0000ff);}
+    35%{background-image: linear-gradient(126deg,#6666ff,#0000ff);}
+    36%{background-image: linear-gradient(129.6deg,#6666ff,#0000ff);}
+    37%{background-image: linear-gradient(133.2deg,#6666ff,#0000ff);}
+    38%{background-image: linear-gradient(136.8deg,#6666ff,#0000ff);}
+    39%{background-image: linear-gradient(140.4deg,#6666ff,#0000ff);}
+    40%{background-image: linear-gradient(144deg,#6666ff,#0000ff);}
+    41%{background-image: linear-gradient(147.6deg,#6666ff,#0000ff);}
+    42%{background-image: linear-gradient(151.2deg,#6666ff,#0000ff);}
+    43%{background-image: linear-gradient(154.8deg,#6666ff,#0000ff);}
+    44%{background-image: linear-gradient(158.4deg,#6666ff,#0000ff);}
+    45%{background-image: linear-gradient(162deg,#6666ff,#0000ff);}
+    46%{background-image: linear-gradient(165.6deg,#6666ff,#0000ff);}
+    47%{background-image: linear-gradient(169.2deg,#6666ff,#0000ff);}
+    48%{background-image: linear-gradient(172.8deg,#6666ff,#0000ff);}
+    49%{background-image: linear-gradient(176.4deg,#6666ff,#0000ff);}
+    50%{background-image: linear-gradient(180deg,#6666ff,#0000ff);}
+    51%{background-image: linear-gradient(183.6deg,#6666ff,#0000ff);}
+    52%{background-image: linear-gradient(187.2deg,#6666ff,#0000ff);}
+    53%{background-image: linear-gradient(190.8deg,#6666ff,#0000ff);}
+    54%{background-image: linear-gradient(194.4deg,#6666ff,#0000ff);}
+    55%{background-image: linear-gradient(198deg,#6666ff,#0000ff);}
+    56%{background-image: linear-gradient(201.6deg,#6666ff,#0000ff);}
+    57%{background-image: linear-gradient(205.2deg,#6666ff,#0000ff);}
+    58%{background-image: linear-gradient(208.8deg,#6666ff,#0000ff);}
+    59%{background-image: linear-gradient(212.4deg,#6666ff,#0000ff);}
+    60%{background-image: linear-gradient(216deg,#6666ff,#0000ff);}
+    61%{background-image: linear-gradient(219.6deg,#6666ff,#0000ff);}
+    62%{background-image: linear-gradient(223.2deg,#6666ff,#0000ff);}
+    63%{background-image: linear-gradient(226.8deg,#6666ff,#0000ff);}
+    64%{background-image: linear-gradient(230.4deg,#6666ff,#0000ff);}
+    65%{background-image: linear-gradient(234deg,#6666ff,#0000ff);}
+    66%{background-image: linear-gradient(237.6deg,#6666ff,#0000ff);}
+    67%{background-image: linear-gradient(241.2deg,#6666ff,#0000ff);}
+    68%{background-image: linear-gradient(244.8deg,#6666ff,#0000ff);}
+    69%{background-image: linear-gradient(248.4deg,#6666ff,#0000ff);}
+    70%{background-image: linear-gradient(252deg,#6666ff,#0000ff);}
+    71%{background-image: linear-gradient(255.6deg,#6666ff,#0000ff);}
+    72%{background-image: linear-gradient(259.2deg,#6666ff,#0000ff);}
+    73%{background-image: linear-gradient(262.8deg,#6666ff,#0000ff);}
+    74%{background-image: linear-gradient(266.4deg,#6666ff,#0000ff);}
+    75%{background-image: linear-gradient(270deg,#6666ff,#0000ff);}
+    76%{background-image: linear-gradient(273.6deg,#6666ff,#0000ff);}
+    77%{background-image: linear-gradient(277.2deg,#6666ff,#0000ff);}
+    78%{background-image: linear-gradient(280.8deg,#6666ff,#0000ff);}
+    79%{background-image: linear-gradient(284.4deg,#6666ff,#0000ff);}
+    80%{background-image: linear-gradient(288deg,#6666ff,#0000ff);}
+    81%{background-image: linear-gradient(291.6deg,#6666ff,#0000ff);}
+    82%{background-image: linear-gradient(295.2deg,#6666ff,#0000ff);}
+    83%{background-image: linear-gradient(298.8deg,#6666ff,#0000ff);}
+    84%{background-image: linear-gradient(302.4deg,#6666ff,#0000ff);}
+    85%{background-image: linear-gradient(306deg,#6666ff,#0000ff);}
+    86%{background-image: linear-gradient(309.6deg,#6666ff,#0000ff);}
+    87%{background-image: linear-gradient(313.2deg,#6666ff,#0000ff);}
+    88%{background-image: linear-gradient(316.8deg,#6666ff,#0000ff);}
+    89%{background-image: linear-gradient(320.4deg,#6666ff,#0000ff);}
+    90%{background-image: linear-gradient(324deg,#6666ff,#0000ff);}
+    91%{background-image: linear-gradient(327.6deg,#6666ff,#0000ff);}
+    92%{background-image: linear-gradient(331.2deg,#6666ff,#0000ff);}
+    93%{background-image: linear-gradient(334.8deg,#6666ff,#0000ff);}
+    94%{background-image: linear-gradient(338.4deg,#6666ff,#0000ff);}
+    95%{background-image: linear-gradient(342deg,#6666ff,#0000ff);}
+    96%{background-image: linear-gradient(345.6deg,#6666ff,#0000ff);}
+    97%{background-image: linear-gradient(349.2deg,#6666ff,#0000ff);}
+    98%{background-image: linear-gradient(352.8deg,#6666ff,#0000ff);}
+    99%{background-image: linear-gradient(356.4deg,#6666ff,#0000ff);}
+    100%{background-image: linear-gradient(360deg,#6666ff,#0000ff);}
+}
