@@ -47,7 +47,7 @@ for($i = 0; $i < sizeof($arrayCategorie); $i++){
     echo "Risposta 3: ".$_3."<BR>";
     echo "Risposta 4: ".$_4."<BR><BR>";
 
-$numeri = [1,2,3,4];
+$numeri = [1,2,3,4];    //Non essenziale, solo per alternare le risposte esatte durante il processo di creazione domande
 shuffle($numeri);
 for($i = 0; $i < 4; $i++)
     echo $numeri[$i]." ";

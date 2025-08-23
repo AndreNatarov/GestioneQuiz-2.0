@@ -1,3 +1,10 @@
+<?php
+    //TODO: Sessione e logica per iniziare il gioco
+
+    //IDEA: Da qui l'utente potrà entrare nei quiz, dopo a seconda del tipo di richiesta gestibile tramite POST possiamo preparare il quiz al meglio.
+    // Per robe più peculiari si potrà vedere più avanti se creare pagine apposte, tipo per seleziona solo una categoria o una modalità completamente custom
+?>
+
 <!DOCTYPE html>
 <html lang="en" style="margin: 0; height: 100%;">
 <head>
