@@ -45,5 +45,10 @@ for($i = 0; $i < sizeof($arrayCategorie); $i++){
     echo "<BR><BR>"."Risposta 1: ".$_1."<BR>";
     echo "Risposta 2: ".$_2."<BR>";
     echo "Risposta 3: ".$_3."<BR>";
-    echo "Risposta 4: ".$_4."<BR>";
+    echo "Risposta 4: ".$_4."<BR><BR>";
+
+$numeri = [1,2,3,4];
+shuffle($numeri);
+for($i = 0; $i < 4; $i++)
+    echo $numeri[$i]." ";
 ?>
