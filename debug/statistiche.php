@@ -40,7 +40,7 @@ for($i = 0; $i < sizeof($arrayCategorie); $i++){
         if($tempStringa == $arrayCategorie[$i])
             $contatoreNumeroCategorie[$i] += 1;
     }
-    echo $arrayCategorie[$i]." ".$contatoreNumeroCategorie[$i]."<BR>";
+    echo $arrayCategorie[$i].": ".$contatoreNumeroCategorie[$i]." domande<BR>";
 }
     echo "<BR><BR>"."Risposta 1: ".$_1."<BR>";
     echo "Risposta 2: ".$_2."<BR>";
